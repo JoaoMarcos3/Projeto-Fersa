@@ -1,0 +1,32 @@
+# ---------- Segredos — nunca commitar ----------
+.env
+.env.*
+!.env.example
+**/js/config.js
+!**/js/config.example.js
+
+# ---------- Backend (Maven / Java) ----------
+backend/target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+
+# ---------- Frontend ----------
+node_modules/
+dist/
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log

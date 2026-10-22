@@ -1,0 +1,9 @@
+{
+  "name": "fersa-care-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FERSA Care — frontend (HTML/CSS/JS puro, sem build step). Consome a API em backend/.",
+  "scripts": {
+    "dev": "npx --yes http-server . -p 5500 -c-1"
+  }
+}
